@@ -48,10 +48,10 @@ function renderLicenseSection(license) {
 function generateMarkdown(answer) {
 
   return`
-  ## ${answer.title} \n ### poop
+  ## ${answer.title} \n 
   ### [${renderLicenseSection(answer.license)}](${renderLicenseLink(answer.license)}) ${renderLicenseBadge(answer.license)}
 
-  ##TABLE OF CONTENTES:
+  ## TABLE OF CONTENTES:
   ### * [license](#license)
   ### * [Usage](#usage)  
   ### * [Tests](#tests)
@@ -69,7 +69,7 @@ function generateMarkdown(answer) {
 
   ## Contributors
   ### Who contributed:
-  ### ${answer.ontrobutions}
+  ### ${answer.controbutions}
 
   ## My Email:
   ### ${answer.email}
